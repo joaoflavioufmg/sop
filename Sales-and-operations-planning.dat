@@ -1,3 +1,27 @@
+# Annals of Operations ResearchOptimal sales and operations planning for integrated steel industries
+
+# Model data
+# Jo√£o Fl√°vio de Freitas Almeida, Ph.D.
+# Samuel Vieira Concei√ß√£o, Ph.D.
+# Luiz Ricardo Pinto, Ph.D.
+# B√°rbara Regina Pinto e Oliveira, Ph.D
+# L√°sara Fabr√≠cia Rodrigues, Ph.D.
+
+
+/* This paper aims at inspiring a change of the traditional approach of Sales andOperations Planning (S&OP)
+in integrated steel industries that have reached a maturityplanning level enabling the use of sophisticated 
+technologies. Therefore, we propose atwo-stage stochastic programming model for the tactical supply
+chain planning. A moreadvanced S&OP approach applied to the steel-making sector if compared to S&OP
+formulations in the existing literature due to its suitability on reproducing the rollinghorizon framework. 
+Test simulations in a Brazilian integrated steel industry caseresearch for one year of operations 
+enabled the comparison of the model results withthe plan produced traditionally. 
+The results of case research showed a potentialimprovement of about 15% on overall supply chain profit. 
+Additionally, we evaluatedtwo scenarios to analyze the effects of a flexible capacity when facing a 
+tax increaseand a demand decrease. Optimal designs and financial results suggest that theproposed
+model is a promising approach for increasing planning agility, shifting fromrevenue to margin-focused
+management. As a practical implication, the modelprovides a consensus view of the S&OP stages at once
+supporting top managers tomake better decisions. The two-stage modeling approach also reinforces 
+the need forinteraction of the sales team with procurement, production, and distribution teams. */
 
 data;																																			
 
@@ -39,35 +63,35 @@ set C		:= 	#customers aggregated in states
 C1				#	Acre
 C2				#	Alagoas
 C3				#	Amazonas
-C4				#	Amap·
+C4				#	Amap√°
 C5				#	Bahia
-C6				#	Cear·
+C6				#	Cear√°
 C7				#	Distrito Federal
-C8				#	EspÌrito Santo
-C9				#	Goi·s
-C10				#	Maranh„o
+C8				#	Esp√≠rito Santo
+C9				#	Goi√°s
+C10				#	Maranh√£o
 C11				#	Metropolitan area BH
-C12				#	Vale do AÁo
+C12				#	Vale do A√ßo
 C13				#	InteriorofMinas1
 C14				#	InteriorofMinas2
 C15				#	Mato Grosso do Sul
 C16				#	Mato Grosso
-C17				#	Par·
-C18				#	ParaÌba
+C17				#	Par√°
+C18				#	Para√≠ba
 C19				#	Pernambuco
-C20				#	PiauÌ
-C21				#	Paran·
+C20				#	Piau√≠
+C21				#	Paran√°
 C22				#	Rio de Janeiro
 C23				#	Rio Grande do Norte
-C24				#	RondÙnia
+C24				#	Rond√¥nia
 C25				#	Roraima
 C26				#	Rio Grande do Sul
 C27				#	Santa Catarina
 C28				#	Sergipe
 C29				#	Metropolitan area SP 
 C30				#	Metropolitan area SP2
-C31				#	Interior of S„oPaulo1
-C32				#	Interior of S„oPaulo2
+C31				#	Interior of S√£oPaulo1
+C32				#	Interior of S√£oPaulo2
 C33				#	Tocantins
 C34				#	International market
 ;				
